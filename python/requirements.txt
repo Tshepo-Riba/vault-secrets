@@ -1,0 +1,2 @@
+# python/requirements.txt
+hvac==1.0.2

@@ -1,0 +1,12 @@
+{
+    "name": "vault-secrets-nodejs",
+    "version": "1.0.0",
+    "description": "Hashicorp Vault integration with Node.js",
+    "main": "vault_secrets.js",
+    "scripts": {
+      "start": "node vault_secrets.js"
+    },
+    "dependencies": {
+      "node-vault": "^0.9.22"
+    }
+  }
