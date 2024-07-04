@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "consul:Describe*",
+          "consul:List*",
+          // Add other necessary actions here
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  

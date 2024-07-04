@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "dynamodb:DescribeTable",
+          "dynamodb:PutItem",
+          "dynamodb:UpdateItem"
+          // Add other necessary actions here
+        ],
+        "Resource": "arn:aws:dynamodb:region:account-id:table/vault"
+      }
+    ]
+  }
+  
